@@ -14,11 +14,22 @@ public class Odd
             }
         }
     }
+    void OddFun(int n)
+    { 
+        for (int i = 1; i <= n; i++)
+        {
+            if (i % 2 != 0)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }   
 
     public static void main(string[] args)
     {
         Odd o = new Odd();
         o.OddFun();
+        o.OddFun(10); 
     }
 }   
 
