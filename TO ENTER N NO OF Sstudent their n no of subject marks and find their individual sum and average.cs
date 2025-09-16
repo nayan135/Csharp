@@ -15,7 +15,7 @@ class Program
         {
             Console.WriteLine("For student " + i);
             int sum = 0;
-            float avg;
+            float avg=0;
             for (int j = 1; j <= m; j++)
             {
                 Console.WriteLine("Enter the marks of subject " + j);
@@ -23,6 +23,8 @@ class Program
                 sum = sum + marks;
                 avg = sum / m;
             }
+            Console.WriteLine("The sum of student " + i + " is " + sum);
+            Console.WriteLine("The average of student " + i + " is " + avg);
         }
     }
 }
