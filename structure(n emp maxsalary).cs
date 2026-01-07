@@ -38,13 +38,13 @@ struct Employ
  
         for(int i=0; i < n; i++)
         {  
-              if (employee[i].salary> salary)
+              if (employee[i].salary > salary)
             {
                 salary= employee[i].salary;
             }
            
 
-            if(employee[i].salary== salary)
+            if(employee[i].salary == salary)
             {
                  Console.WriteLine($"ID:{employee[i].id}");
             Console.WriteLine($"Name:{employee[i].name}");
