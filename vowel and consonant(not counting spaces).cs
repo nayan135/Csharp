@@ -1,3 +1,4 @@
+//vowel and consonant (excluding space)
 using System;
 class vowel
 {
