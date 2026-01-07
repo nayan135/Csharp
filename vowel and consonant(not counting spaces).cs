@@ -28,6 +28,7 @@ class vowel
                 vcount++;
                 
             }
+               // else { //if counting space as consonant
                 else if (Char.IsLetter(n[i])){
                     ccount++;
                 }
