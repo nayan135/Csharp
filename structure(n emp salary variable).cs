@@ -36,7 +36,7 @@ struct Employe
     double salary =21000.00;
         for(int i=0; i < n; i++)
         {
-            if (employee[i].salary <= salary)
+            if (employee[i].salary > salary)
             {
                  Console.WriteLine($"ID:{employee[i].id}");
             Console.WriteLine($"Name:{employee[i].name}");
